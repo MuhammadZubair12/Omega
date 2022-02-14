@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include omega *.css
+recursive-include omega *.csv
+recursive-include omega *.html
+recursive-include omega *.ico
+recursive-include omega *.js
+recursive-include omega *.json
+recursive-include omega *.md
+recursive-include omega *.png
+recursive-include omega *.py
+recursive-include omega *.svg
+recursive-include omega *.txt
+recursive-exclude omega *.pyc
